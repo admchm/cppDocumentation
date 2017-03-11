@@ -12,13 +12,7 @@ int main()
 	myNums.push_back(7);
 	myNums.push_back(102);
 
-	displayNums(myNums);
-
-	std::cout << "Sorting them in descending order\n";
-
-	sort(myNums.begin(), myNums.end(),
-		[](int num1, int num2) { return (num2 < num1); } );
-
+	std::cout << "Example with for_each algorithm\n";
 	displayNums(myNums);
 
 	return 0;
@@ -26,9 +20,8 @@ int main()
 
 void displayNums(std::vector<int>& dynArray)
 {
-	for_each (dynArray.begin(), dynArray.end(),
-		[](int element){ std::cout << element << " ";}  // lambda function
-		);
+	for_each(dynArray.begin(), dynArray.end(),
+		[](int element) { std::cout << element << " "; }  // lambda function
+	);
 	std::cout << "\n";
 }
-
