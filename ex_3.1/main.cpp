@@ -1,16 +1,15 @@
 #include <iostream>
+
+void myFunction(const int&, int&);
+
 int main()
 {
+	int *pointToAnInt = new int;
+	*pointToAnInt = 9;
 	
-	enum yourCards
-	{
-		Ace = 43,
-		Jack,
-		Queen,
-		King
-	};
-
-	std::cout << "Queen equals " << Queen << "\n";
-
+	std::cout << *pointToAnInt<< "\n";
+	
 	return 0;
 }
+
+

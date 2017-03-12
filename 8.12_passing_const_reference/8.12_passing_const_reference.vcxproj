@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{63DD6B4F-7EFD-4F13-9E1C-003606A708FE}</ProjectGuid>
+    <ProjectGuid>{CBC4A768-9918-4F2B-8E12-812A41B9609A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ex_31</RootNamespace>
+    <RootNamespace>My812_passing_const_reference</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
-    <ProjectName>test</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
