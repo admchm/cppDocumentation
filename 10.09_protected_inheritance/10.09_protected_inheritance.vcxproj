@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{88DA5780-E045-4BC2-A12C-2EDBAC765B45}</ProjectGuid>
+    <ProjectGuid>{FE9D459F-E3F9-4BBC-BFA5-F5779A272774}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My911_</RootNamespace>
+    <RootNamespace>My1009_protected_inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
-    <ProjectName>9.11_prohibiting_instantiation_on_stack</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
